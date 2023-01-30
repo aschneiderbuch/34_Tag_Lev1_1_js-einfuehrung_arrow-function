@@ -26,3 +26,17 @@ console.log(multiply(2,10));
 
 let multiply2 = (num1, num2) => num1 * num2;
 console.log("Geht auch ohne return " + multiply2(2,10));
+
+
+
+/* 
+array
+ */
+
+let nums = [1, 4, 9];
+
+let squares = nums.map((num) => {
+    return Math.sqrt(num);
+});
+
+console.log(squares);
